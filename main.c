@@ -1071,6 +1071,8 @@ static int __ref kernel_init(void *unused) {
     system_state = SYSTEM_RUNNING;
     numa_default_policy();
 
+    printk(KERN_ERR "##### Mohamed Mohamed (UFID: 765-789-37) #####");
+
     rcu_end_inkernel_boot();
 
     if (ramdisk_execute_command) {
