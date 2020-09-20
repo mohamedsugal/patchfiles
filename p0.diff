@@ -339,9 +339,7 @@ index 02f6b6bd6a17..9dfeec75e0fd 100644
  	system_state = SYSTEM_RUNNING;
  	numa_default_policy();
  
-+	printk(KERN_ERR
-+	       "##### Mohamed Mohamed (UFID: 7403-7273) Talk is Cheap, Show Me the Code! #####");
-+
++	printk(KERN_ERR "### Mohamed Mohamed (Exercise 2) ###");
  	rcu_end_inkernel_boot();
  
  	if (ramdisk_execute_command) {
